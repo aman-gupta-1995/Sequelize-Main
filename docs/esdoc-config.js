@@ -8,7 +8,7 @@ module.exports = {
   source: './lib',
   destination: './esdoc',
   includes: ['\\.js$'],
-  plugins: [
+  plugins: [ 
     {
       name: 'esdoc-ecmascript-proposal-plugin',
       option: {

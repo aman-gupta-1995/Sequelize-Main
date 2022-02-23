@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; 
   
 const Support   = require('../support');
 const current   = Support.sequelize; 

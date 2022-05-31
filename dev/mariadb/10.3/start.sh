@@ -14,3 +14,4 @@ docker exec sequelize-mariadb-103 \
 node check.js
 
 echo "Local MariaDB-10.3 instance is ready for Sequelize tests."
+ 

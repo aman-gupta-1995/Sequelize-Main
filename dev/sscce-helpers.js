@@ -3,7 +3,7 @@
 const Support = require('../test/support');
  
 module.exports = {
-  createSequelizeInstance(options = {}) { 
+  createSequelizeInstance(options = {}) {  
     return Support.createSequelizeInstance({  
       logging: console.log,
       logQueryParameters: true,

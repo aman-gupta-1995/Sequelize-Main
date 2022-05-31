@@ -3,7 +3,7 @@
 Make sure you have read the [associations guide](assocs.html) before reading this guide.
 
 Let's start with an example of a Many-to-Many relationship between `User` and `Profile`.
-
+ 
 ```js   
 const User = sequelize.define('user', {     
   username: DataTypes.STRING,     

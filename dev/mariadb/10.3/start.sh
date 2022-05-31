@@ -7,7 +7,7 @@ docker-compose -p sequelize-mariadb-103 down --remove-orphans
 docker-compose -p sequelize-mariadb-103 up -d
 
 ./../../wait-until-healthy.sh sequelize-mariadb-103
- 
+  
 docker exec sequelize-mariadb-103 \
   mysql --host 127.0.0.1 --port 3306 -uroot -psequelize_test -e "GRANT ALL ON *.* TO 'sequelize_test'@'%' with grant option; FLUSH PRIVILEGES;"
 

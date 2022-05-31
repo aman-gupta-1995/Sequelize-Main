@@ -22,7 +22,7 @@ A basic example of an association scope for the One-to-Many association between 
     Foo.hasMany(Bar, {
         scope: {
             status: 'open'
-        },
+        }, 
         as: 'openBars'
     });
     await sequelize.sync();

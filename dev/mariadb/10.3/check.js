@@ -7,3 +7,4 @@ const sequelize = require('../../../test/support').createSequelizeInstance();
   await sequelize.close();
 })();  
   
+ 

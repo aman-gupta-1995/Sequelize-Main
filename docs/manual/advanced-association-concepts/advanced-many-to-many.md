@@ -6,7 +6,7 @@ Let's start with an example of a Many-to-Many relationship between `User` and `P
 
 ```js  
 const User = sequelize.define('user', {
-  username: DataTypes.STRING, 
+  username: DataTypes.STRING,  
   points: DataTypes.INTEGER
 }, { timestamps: false });
 const Profile = sequelize.define('profile', {

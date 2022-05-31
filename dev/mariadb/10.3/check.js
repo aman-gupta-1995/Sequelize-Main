@@ -8,3 +8,4 @@ const sequelize = require('../../../test/support').createSequelizeInstance();
 })();   
   
   
+ 

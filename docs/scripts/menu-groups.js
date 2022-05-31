@@ -4,7 +4,7 @@
   function toggleNavigationBar() {
     const navigationElements = document.getElementsByClassName('navigation');
     for (let i = 0; i < navigationElements.length; ++i) {
-      const navigationElement = navigationElements[i];
+      const navigationElement = navigationElements[i]; 
       navigationElement.classList.toggle('open');
     }
   }

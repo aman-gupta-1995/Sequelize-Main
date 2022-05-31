@@ -8,7 +8,7 @@
       navigationElement.classList.toggle('open');    
     }   
   } 
-
+ 
   // Hamburger button - toggles the navigation bar
   const hamburger = document.getElementById('navigationHamburger');
   hamburger.addEventListener('click', () => {

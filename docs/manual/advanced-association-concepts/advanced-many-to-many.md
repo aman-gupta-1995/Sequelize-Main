@@ -24,7 +24,7 @@ Profile.belongsToMany(User, { through: 'User_Profiles' });
 By passing a string to `through` above, we are asking Sequelize to automatically generate a model named `User_Profiles` as the *through table* (also known as junction table), with only two columns: `userId` and `profileId`. A composite unique key will be established on these two columns.
 
 We can also define ourselves a model to be used as the through table.
-
+ 
 ```js
 const User_Profile = sequelize.define('User_Profile', {}, { timestamps: false });
 User.belongsToMany(Profile, { through: User_Profile });

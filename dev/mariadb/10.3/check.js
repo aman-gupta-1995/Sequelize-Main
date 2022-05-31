@@ -6,6 +6,3 @@ const sequelize = require('../../../test/support').createSequelizeInstance();
   await sequelize.authenticate(); 
   await sequelize.close();
 })();   
-  
-   
-   

@@ -2,7 +2,7 @@
 
 This section concerns association scopes, which are similar but not the same as [model scopes](scopes.html).
 
-Association scopes can be placed both on the associated model (the target of the association) and on the through table for Many-to-Many relationships.
+Association scopes can be placed both on the associated model (the target of the association) and on the  through table for Many-to-Many relationships.
  
 ## Concept
 

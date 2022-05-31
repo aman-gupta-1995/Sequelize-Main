@@ -6,7 +6,7 @@
     for (let i = 0; i < navigationElements.length; ++i) {
       const navigationElement = navigationElements[i]; 
       navigationElement.classList.toggle('open');   
-    }  
+    }   
   } 
 
   // Hamburger button - toggles the navigation bar

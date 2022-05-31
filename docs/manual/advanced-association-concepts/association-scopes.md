@@ -4,7 +4,7 @@ This section concerns association scopes, which are similar but not the same as 
 
 Association scopes can be placed both on the associated model (the target of the association) and on the  through table for Many-to-Many relationships.
  
-## Concept  
+## Concept   
  
 Similarly to how a [model scope](scopes.html) is automatically applied on the model static calls, such as `Model.scope('foo').findAll()`, an association scope is a rule (more precisely, a set of default attributes and options) that is automatically applied on instance calls from the model. Here, *instance calls* mean method calls that are called from an instance (rather than from the Model itself). Mixins are the main example of instance methods (`instance.getSomething`, `instance.setSomething`, `instance.addSomething` and `instance.createSomething`).
 

@@ -5,3 +5,4 @@ export declare function createSequelizeInstance(options?: Options): Sequelize;
  
  
  
+ 

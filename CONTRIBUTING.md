@@ -1,5 +1,5 @@
 # Introduction
-
+ 
 We are happy to see that you might be interested in contributing to Sequelize! There is no need to ask for permission to contribute. For example, anyone can open issues and propose changes to the source code (via Pull Requests). Here are some ways people can contribute:
 
 * Opening well-written bug reports (via [New Issue](https://github.com/sequelize/sequelize/issues/new/choose))

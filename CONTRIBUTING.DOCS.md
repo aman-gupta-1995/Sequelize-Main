@@ -1,6 +1,6 @@
 # Documentation
 
-The sequelize documentation is divided in two parts:
+The sequelize documentation is divided in two parts: 
 
 - Tutorials, guides, and example based documentation are written in Markdown
 - The API reference is generated automatically from source code comments with [ESDoc](http://esdoc.org) (which uses [JSDoc](http://usejsdoc.org) syntax).

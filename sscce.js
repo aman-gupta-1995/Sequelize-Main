@@ -29,3 +29,4 @@ User.init({
 
   expect(jane.username).to.equal('janedoe');
 })();
+ 

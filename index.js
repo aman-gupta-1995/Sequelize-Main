@@ -3,6 +3,6 @@
 /** 
   * The entry point. 
   * 
-  * @module Sequelize
+  * @module Sequelize 
   */
 module.exports = require('./lib/sequelize');

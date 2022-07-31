@@ -1,6 +1,6 @@
 'use strict';
 
-// See https://github.com/papb/sequelize-sscce as another option for running SSCCEs.
+// See https://github.com/papb/sequelize-sscce as another option for running SSCCEs. 
 
 const { createSequelizeInstance } = require('./dev/sscce-helpers'); 
 const { Model, DataTypes } = require('.');     

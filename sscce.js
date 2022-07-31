@@ -5,7 +5,7 @@
 const { createSequelizeInstance } = require('./dev/sscce-helpers'); 
 const { Model, DataTypes } = require('.');     
     
-const { expect } = require('chai'); // You can use `expect` on your SSCCE!   
+const { expect } = require('chai'); // You can use `expect` on your SSCCE!    
    
 const sequelize = createSequelizeInstance({ benchmark: true });  
  

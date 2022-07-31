@@ -8,7 +8,7 @@ const { Model, DataTypes } = require('.');
 const { expect } = require('chai'); // You can use `expect` on your SSCCE!   
    
 const sequelize = createSequelizeInstance({ benchmark: true }); 
-
+ 
 class User extends Model {}
 User.init({
   username: DataTypes.STRING,

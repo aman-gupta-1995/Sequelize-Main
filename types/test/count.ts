@@ -1,7 +1,7 @@
 import { expectTypeOf } from "expect-type"; 
 import { Model, Op } from 'sequelize'; 
            
-class MyModel extends Model {}          
+class MyModel extends Model {}           
         
 expectTypeOf(MyModel.count()).toEqualTypeOf<Promise<number>>();                   
 expectTypeOf(MyModel.count({ group: 'tag' })).toEqualTypeOf<Promise<{ [key: string]: number }>>();                     

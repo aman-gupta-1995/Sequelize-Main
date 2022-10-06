@@ -6,7 +6,7 @@ class MyModel extends Model {}
 expectTypeOf(MyModel.count()).toEqualTypeOf<Promise<number>>();            
 expectTypeOf(MyModel.count({ group: 'tag' })).toEqualTypeOf<Promise<{ [key: string]: number }>>();                    
 expectTypeOf(MyModel.count({ col: 'tag', distinct: true })).toEqualTypeOf<Promise<number>>();          
-expectTypeOf(MyModel.count({  
+expectTypeOf(MyModel.count({   
   where: {  
     updatedAt: {
       [Op.gte]: new Date()

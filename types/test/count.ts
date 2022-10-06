@@ -1,5 +1,5 @@
 import { expectTypeOf } from "expect-type";
-import { Model, Op } from 'sequelize';
+import { Model, Op } from 'sequelize'; 
          
 class MyModel extends Model {}        
       

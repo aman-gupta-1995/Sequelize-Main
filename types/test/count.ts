@@ -16,3 +16,4 @@ expectTypeOf(MyModel.count({
 })).toEqualTypeOf<Promise<number>>();
  
  
+ 
